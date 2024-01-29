@@ -1,2 +1,4 @@
 Módulo 2 - Iniciando com HTML
 
+Lista ordenada possue alguns paramentros próprios diferentes de lista não ordenada
+    São eles: reverse, start="", type=""
