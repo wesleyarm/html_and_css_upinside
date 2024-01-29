@@ -1,0 +1,24 @@
+O que é HTML?
+    Acrônimo de HyperText Markup Language - Linguagem de marcação de hipertexto
+    HTML5 mantido por WHATWG
+
+HTML possui o desenvolvimento modular, semelhante ao CSS3
+
+HTML5 > marcação do conteúdo da página
+CSS3 > estilização dos elementos da página
+JavaScript > Executar ações quando um determinado evento for ativido
+PHP > Controle e fluxo de informações
+
+Por conta de muitos navegadores e assim diferentes motores, zeramos o CSS para padronizar
+
+Modernizr, antigamento muito utilizada pela variedades de navegadores com motores desatualizados. Daí quando uma ferramenta não funcioava, você tinha que utilizar um plugin dessa biblioteca
+
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Minha primeira página</title>
+    <meta charset="UTF-8">
+    </head>
+    <body>
+    </body>
+</html>
