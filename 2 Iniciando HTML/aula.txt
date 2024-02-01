@@ -6,3 +6,24 @@ Lista ordenada possue alguns paramentros próprios diferentes de lista não orde
 Não é uma boa prática colocar conteúdos HTML dentro da páginas e esconder esse conteúdo posteriormente
     Isso pode ser caracterizado como Blackhat, recebendo punições dos motores de busca, diminuindo a qualidade SEO e até não exibindo anúncios do Google
 
+Informações importantes para listas
+    Neste exemplo, eu coloquei como se fosse um título, ou determinei um grupo contendo valores diferentes naquela lista, onde o usuário poderia escolher
+    <p>
+        <select name="" id="">
+                    <optgroup label="grupo de desenvolvimento">
+                        <option value="">HTML5 e CSS</option>
+                    </optgroup>
+                    <optgroup label="Curso de programação">
+                        <option value="">JAVASCRIPT</option>
+                        <option value="">TYPESCRIPT</option>
+                    </optgroup>
+        </select>
+    </p>
+
+Informações importantes para o formulário:
+    requerid="requerid" -> Requer que o usuário preencha o campo
+    placeholder="Digite o seu nome completo" -> Dica de texto para preenchimento
+    pattern="\d{3}\.\d{3}\.\d{3}-\d{2}"> -> Formato aceitado no campo
+    readonly="readonly" -> Não inclui a informação daquele campo no formulário, porém se já existir um texto naquele campo, ele será submetido
+    checked="checked" -> utilizado para marcar um checkbox pré selecionado ao abrir a página
+    disable="" -> desabilita o campo de texto
