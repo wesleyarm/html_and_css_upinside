@@ -1,0 +1,6 @@
+Projeto desenvolvido nesse módulo de prática, será para marcação de tags
+    Observações importantes sobre o projeto
+
+Logo + Link
+Menu na mesma direção alinhado a direita
+CTA = Calls to Action => Chamada para a ação que você vai fazer/mais importante para o usuário
