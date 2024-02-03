@@ -1,0 +1,63 @@
+/* propriedade: valor;
+
+IDENTIFICADOR
+. > classe
+# > id
+div > tag ( não é aconselhável usar)
+
+SELETOR
+p > tag
+h1 > tag
+h2 > tag
+nome da classe/id/tag 
+
+PROPRIEDADES
+color > cor
+text-align > alinhamento do texto
+border > borda
+font-size > tamanho da fonte
+
+VALOR
+
+*/
+
+.main_blog {
+    max-width: calc(1000px - 80px);
+    width: calc(96% - 80px);
+    background-color:#CCC;
+    padding: 40px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main_blog header {
+    flex-basis: 100%;
+}
+
+.main_blog article {
+    flex-basis: calc(50% - 40px - 20px);
+    padding: 10px 20px;
+    background-color: #333;
+    color: #FFF;
+    margin: 20px 0;
+}
+
+.main_blog article p {
+    font-size: 1.1em;
+}
+
+.title_medium_lightgray {
+    color: lightgray;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 4px;
+}
+
+@media (max-width: 640px) {
+    .main_blog article {
+        flex-basis: calc(100% - 40px);
+    }
+}
