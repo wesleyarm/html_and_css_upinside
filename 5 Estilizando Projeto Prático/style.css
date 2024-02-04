@@ -44,3 +44,53 @@
     color: #FFF;
     background-color: #D36933;
 }
+
+.main_cta {
+    width: 100%;
+    background-image: url(assets/bg_main_home.png);
+    background-color: #2D3142;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.main_cta .main_cta_content {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.main_cta .main_cta_content h1 {
+    color: #FFF;
+    font-size: 3em;
+    font-weight: 700;
+    text-align: center;
+}
+
+.main_cta .main_cta_content p {
+    color: #FFF;
+    font-size: 1.875em;
+    font-weight: 300;
+    text-align: center;
+    margin: 1.3em 0;
+}
+
+.main_cta .main_cta_content .btn {
+    color: #FFF;
+    background-color: #D36933;
+    font-size: 0.85em;
+    padding: 10px 30px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+.main_cta .main_cta_content .btn:hover {
+    color: #D36933;
+    background-color: #FFF;
+}
+
+.main_cta .main_cta_content .main_cta_content_spacer {
+    margin: 0 auto;
+    max-width: 1300px;
+    padding: 160px 40px;
+}

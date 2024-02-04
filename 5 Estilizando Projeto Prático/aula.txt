@@ -1,0 +1,10 @@
+Anotações importantes da Aula
+
+Reflow >
+    Não passar várias vezes repetidas o mesmo caminho para inserir um comando no CSS.
+
+justify-content >
+    Utilizado quase que sempre no menu de navegação, exemplo de valor inserido na propriedade, seria flex-end; Mantendo o menu no final do documento >
+
+align-items > stretch
+    A propriedade align-items em CSS é usada para alinhar os itens dentro de um contêiner flexível. Quando o valor é definido como stretch, os itens se estendem para preencher todo o espaço disponível no eixo transversal do contêiner. Isso significa que os itens serão dimensionados automaticamente para alcançar a altura completa do contêiner, mesmo que tenham alturas diferentes originalmente.
