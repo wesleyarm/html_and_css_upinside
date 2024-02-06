@@ -266,3 +266,61 @@
     color: #333;
 }
 
+.main_course_fullwidth {
+    width: 100%;
+    background-color: #D36933;
+    padding: 40px 0;
+}
+
+.main_course_fullwidth .main_course_rating_content {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.main_course_rating_title {
+    color: #FFF;
+    text-align: center;
+}
+
+.main_course_rating_title h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.main_course_rating_content_comment {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main_course_rating_content_comment > header {
+    flex-basis: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #FFF;
+    margin-top: 20px;
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+
+.main_course_rating_content_comment > article {
+    flex-basis: calc(50% - 20px);
+    background-color: #FFF;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+    padding: 20px;
+    color: #333;
+}
+
+.main_course_rating_content_comment > article h3 {
+    font-size: 1.2em;
+    margin-bottom: 4px;
+}
+
+.main_course_rating_content_comment > article img {
+    width: 20px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+
+}
