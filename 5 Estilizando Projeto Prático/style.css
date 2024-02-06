@@ -324,3 +324,62 @@
     margin-bottom: 2px;
 
 }
+
+/* SCHOOL */
+
+.main_school {
+    width: 100%;
+}
+
+.main_school_content {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main_school_header {
+    flex-basis: 100%;
+    padding: 40px 0;
+    color: #333;
+}
+
+.main_school_header h1 {
+    font-size: 2.2em;
+    margin-bottom: 10px;
+}
+
+.main_school_content_left {
+    flex-basis: calc(70% - 20px);
+}
+
+.main_school_content_left_social_network {
+    padding: 10px 10px;
+    background-color: #2D3142;
+    border-radius: 5px;
+    color: #FFF;
+}
+
+.main_school_content_left_social_network span {
+    margin-left: 15px;
+}
+
+.main_school_content_left_social_network a {
+    color: #FFF;
+    margin-right: 10px;
+    font-size: 0.9em;
+}
+
+.main_school_content_left_social_network a:hover {
+    text-decoration: underline;
+}
+
+.main_school_content_right{
+    flex-basis: 30%;
+}
+
+.main_school_content_right img {
+    width: 100%;
+    border-radius: 50%;
+}
