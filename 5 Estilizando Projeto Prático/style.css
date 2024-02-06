@@ -354,25 +354,61 @@
     flex-basis: calc(70% - 20px);
 }
 
-.main_school_content_left_social_network {
+.main_school_content_left_content > header > p {
     padding: 10px 10px;
     background-color: #2D3142;
     border-radius: 5px;
     color: #FFF;
+    margin-bottom: 20px;
 }
 
-.main_school_content_left_social_network span {
+.main_school_content_left_content > header > p span {
     margin-left: 15px;
 }
 
-.main_school_content_left_social_network a {
+.main_school_content_left_content > header > p a {
     color: #FFF;
     margin-right: 10px;
     font-size: 0.9em;
 }
 
-.main_school_content_left_social_network a:hover {
+.main_school_content_left_content > header > p a:hover {
     text-decoration: underline;
+}
+
+.main_school_content_left_content > header h2 {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+
+.main_school_content_left_content > p {
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.main_school_list {
+    width: 100%;
+    background-color: #EBEBEB;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main_school_list > header {
+    flex-basis: 100%;
+    color:#D36933;
+    margin-bottom: 20px;
+}
+
+.main_school_list > article {
+    flex-basis: calc(50% - 20px);
+    margin-bottom: 5px;
+}
+
+.main_school_list > article > header h3 {
+    font-weight: 400;
 }
 
 .main_school_content_right{
@@ -382,4 +418,15 @@
 .main_school_content_right img {
     width: 100%;
     border-radius: 50%;
+}
+
+.main_school_addres {
+    flex-basis: 100%;
+    padding: 44px 0;
+    text-align: center;;
+}
+
+.main_school_addres h2 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
 }
