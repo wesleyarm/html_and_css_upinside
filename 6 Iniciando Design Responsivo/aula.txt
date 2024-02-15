@@ -1,0 +1,26 @@
+Pilares do Design Responsivo
+
+Responsivo x Adaptivo
+    Responsivo > Indeependente da tela a ser trabalhado, o resultado se manterá o mesmo
+    Adaptivo > O resultado será diferente conforme a tela a ser trabalhada
+
+Fluxo
+    Um problema anteriormente do CSS, que hoje ficou mais fácil de trabalhar
+
+Unidade de Medidas Relativas x Fixas
+
+Breakpoints
+    Colocar um ponto de quebra, para redimencionar, personalizar uma  exibição para determinados dispositivos.
+
+Valores Máximos e Mínimos
+    Max width > No max width
+
+Objetos Aninhados
+    Um único bloco, tendo apenas 1 animação > reúso de código
+
+Mobile ou Desktop First
+
+Fontes da Web ou do Sistema
+
+Imagens Bitmap x Vetores
+    
