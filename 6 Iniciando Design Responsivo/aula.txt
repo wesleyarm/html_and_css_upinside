@@ -40,3 +40,5 @@ Imagens Bitmap x Vetores
     Desktop First
         Mais utilizada quando estamos trabalhando com display flex
 
+---------Design Responsivo com Grid
+    Feito todo o aprendizado na pasta Design Responsivo com Grid
