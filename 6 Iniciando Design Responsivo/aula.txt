@@ -1,4 +1,4 @@
-Pilares do Design Responsivo
+---------Pilares do Design Responsivo
 
 Responsivo x Adaptivo
     Responsivo > Indeependente da tela a ser trabalhado, o resultado se manterá o mesmo
@@ -23,4 +23,20 @@ Mobile ou Desktop First
 Fontes da Web ou do Sistema
 
 Imagens Bitmap x Vetores
-    
+
+
+------------Técnicas para Aplicar Responsividade
+
+3 técnicos que podemos aplicar
+    Grid Layout
+        Utilizada por bibliotecas de componentes como Boostrap, Materialize, Foundation
+
+    Mobiles First
+        Começa pela menor resolução e em seguida vai aumentando gradualmente
+        Técnica usada durante bastante tempo quando trabalhávamos com display inline block
+        *Conforme vai aumentando a tela, você define breakpoints para realizar alteração nos visuais do CSS por exemplo
+        **O último breakpoint terá como resultado a página sendo servida para a maior resolução possível
+
+    Desktop First
+        Mais utilizada quando estamos trabalhando com display flex
+
