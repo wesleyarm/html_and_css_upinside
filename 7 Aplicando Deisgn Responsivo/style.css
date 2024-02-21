@@ -687,6 +687,17 @@
         font-size: 0.5em;
     }
 
+    .main_blog article {
+        flex-basis: calc(33% - 10px);
+    }
+
+}
+
+/* 640px */
+@media (max-width: 40em) {
+    .main_blog article {
+    flex-basis: calc(50% - 10px);
+    }
 }
 
 /* 480px */
@@ -701,5 +712,9 @@
 
     .main_header_content_menu_mobile {
         flex-basis: calc(100% - 220px) !important;
+    }
+
+    .main_blog article {
+        flex-basis: 100%;
     }
 }
