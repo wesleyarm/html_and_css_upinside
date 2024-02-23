@@ -742,6 +742,19 @@
         font-size: 0.9em;
         line-height: 3em;
     }
+
+    .main_tutor_social_network {
+        max-width: 88%;
+    }
+
+    .main_tutor_social_network h2 {
+        margin-bottom: 20px;
+    }
+
+    .main_tutor_social_network > article {
+        flex-basis: 49%;
+        margin-bottom: 30px;
+    }
 }
 
 /* 640px */
@@ -774,7 +787,14 @@
     }
 }
 
-/* 520 */
+/* 580px */
+@media (max-width: 36em) {
+    .main_tutor_social_network > article {
+        flex-basis: 100%;
+    }
+}
+
+/* 520px */
 @media (max-width: 32em) {
     .main_school_content_right {
         display: none;
