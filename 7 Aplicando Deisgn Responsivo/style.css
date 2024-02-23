@@ -275,6 +275,7 @@
 
 .main_course_fullwidth .main_course_rating_content {
     max-width: 1300px;
+    padding: 0 20px;
     margin: 0 auto;
 }
 
@@ -715,6 +716,11 @@
         flex-basis: calc(33% - 10px);
     }
 
+    .main_course_rating_title h2 {
+        font-size: 1.3em;
+        margin-bottom: 20px;
+    }
+
 }
 
 /* 640px */
@@ -737,6 +743,14 @@
         margin: 0 auto;
         padding: 4px 8px;
     }
+
+    .main_course_rating_content_comment > header > h2 {
+        font-size: 0.9em;
+    }
+
+    .main_course_rating_content_comment > article {
+        flex-basis: 100%;
+    }
 }
 
 /* 480px */
@@ -757,7 +771,12 @@
         flex-basis: 100%;
     }
 
-    .main_course_content article {
+    .main_course_rating_content_comment > h2 {
+        font-size: 1.3em;
+        margin-bottom: 20px;
+    }
+
+    .main_course_content > article {
         flex-basis: calc(100% - 40px);
         margin: 10px 0;
     }
