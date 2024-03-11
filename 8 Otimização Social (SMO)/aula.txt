@@ -7,4 +7,7 @@ Entregando o mínimo de informações para os mecanismos de buscas.
 Essas tags precisam ser lidas pelos motores de buscas
 Essas pesquisas pelos mecanismos de buscas, ocorrem de tempos em tempos
 
+Cada rede social, possui alguns metadados especificos que precisam ser declarado em head na página http. Pelo que observei, por se tratar de informações especificas para cada website, seria legal comentar as informações referentes as documentações referidas no documento.
+
+Todos esses sites prinicipais de redes sociais possuem ferramentas de desenvolvedores para auxiliar na demonstração prévia de como o conteúdo divulgado nessas plataformas seria demonstrado para o público
 
